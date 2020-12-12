@@ -38,7 +38,7 @@ while no.lower() not in yes and no.lower() not in ["no", "0"] and ok.lower() != 
         print("There we go!")
     else:
         print("I can't hear you!")
-if no.lower() not in ["no", "0"]:
+if no.lower() not in ["no", "0"] and ok.lower() != "no":
     if no.lower() == "fine":
         print("E", end="")
     else:
@@ -77,6 +77,8 @@ while no not in ["no", "0"] and restart == "yes" and ok.lower() != "no":
         if retry == "no" and randomizer == "1":
             randomNumber = random.randint(0, 23)
             retry = "yes"
+        if randomNumber > 23:
+            randomNumber = 0
         while randomizer == "0" and correctAnswers[randomNumber] > 0 and randomNumber <= 23:
             randomNumber += 1
             if randomNumber > 23:
