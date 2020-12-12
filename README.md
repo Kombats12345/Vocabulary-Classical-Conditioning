@@ -7,9 +7,10 @@ Otherwise, there isn't much else to this project, but it can be used by other pe
 This program helps you not only associate words with their definition, but also helps you learn their spelling. How? With a score tracker. That's it.
 If you get a question right, your score goes up. If you get a question almost right, you get partial points. If you don't, you get the option to retry or move on to the next question.
 Try to get the most points and find as many easter eggs and references as you can. Time isn't important, so take as long as you want.
+The icon was created after Ivan Pavlov's experiment in classical condition involving dogs, bells, and food. The image depicts a giant "V," the words "Classical Conditioning," steak, and a bell. All the words and letters use the font, "Times New Roman."
 
 # Other Information
-This code was solely made by me, but I don't have any license so anyone can use/modify/share/redistribute it (for free), I think.
+This code was solely made by me, but I don't have any license so anyone can use/modify/share/redistribute it (for free), I think. I didn't, however, make Python, Pycharm, Microsoft Paint, Google Chrome, the Internet (which include Stack Overflow and GitHub), the rest of the world/universe, nor myself, all of which were used (either directly or indirectly) to finish this project.
 There are no viruses/malicious code in this program. The only malicious intent involved is the thought that by taking time away from whatever it was that you were doing to read this, you lost time that could be used doing something else, like using this program.
 Thanks to the Internet for providing solutions to problems, and to my teacher for making the assignment this program is for.
 Also thanks to the people that worked on Python and Pycharm so I could code using them, and thanks to my parents for concieving me.
