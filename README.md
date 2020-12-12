@@ -2,3 +2,17 @@
 This is a project for one of my classes that helps you learn some vocabulary words. Not much classical conditioning, but a lot of vocabulary words.
 It took me 3 days to make this program, which might seem like a long time for code so simple, but my last project like this (over a year ago) took me several months, and it doesn't even have half as much depth as this, so I see it as an improvement.
 Otherwise, there isn't much else to this project, but it can be used by other people once I finish it up and compile it (hopefully).
+
+# About
+This program helps you not only associate words with their definition, but also helps you learn their spelling. How? With a score tracker. That's it.
+If you get a question right, your score goes up. If you get a question almost right, you get partial points. If you don't, you get the option to retry or move on to the next question.
+Try to get the most points and find as many easter eggs and references as you can. Time isn't important, so take as long as you want.
+
+# Other Information
+This code was solely made by me, but I don't have any license so anyone can use/modify/share/redistribute it (for free), I think.
+There are no viruses/malicious code in this program. The only malicious intent involved is the thought that by taking time away from whatever it was that you were doing to read this, you lost time that could be used doing something else, like using this program.
+Thanks to the Internet for providing solutions to problems, and to my teacher for making the assignment this program is for.
+Also thanks to the people that worked on Python and Pycharm so I could code using them, and thanks to my parents for concieving me.
+Also also thanks to everyone else for making decisions that inevitably led me to work on this project, from colonizing America to picking up a penny on the street.
+
+Also, this program was only tested on Windows 10 with Python 3.9 installed, so if something doesn't work, use that information to help you or something.
