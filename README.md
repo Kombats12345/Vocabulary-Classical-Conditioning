@@ -16,4 +16,4 @@ Thanks to the Internet for providing solutions to problems, and to my teacher fo
 Also thanks to the people that worked on Python and Pycharm so I could code using them, and thanks to my parents for concieving me.
 Also also thanks to everyone else for making decisions that inevitably led me to work on this project, from colonizing America to picking up a penny on the street.
 
-Also, this program was only tested on Windows 10 with Python 3.9 installed, so if something doesn't work, use that information to help you or something.
+This program was only tested on Windows 10 with Python 3.9 installed, so if something doesn't work, use that information to help you or something. It was compiled using auto-py-to-exe.
