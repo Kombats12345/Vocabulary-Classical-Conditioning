@@ -51,11 +51,6 @@ restart = "yes"
 while no not in ["no", "0"] and restart == "yes" and ok.lower() != "no":
     correctAnswers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     randomizer = ""
-    while randomizer not in ["0", "1"]:
-        print("If you would like the questions to be in a preset order, please type \"0\" and press \"RETURN\"/\"ENTER\".\nIf you would like the questions to be randomized, please type \"1\" and press \"RETURN\"/\"ENTER\"\nThe word bank, however, will always be randomized.")
-        randomizer = input()
-        if randomizer not in ["0", "1"]:
-            print("Please type in only one of the two options.")
     wordList = ["analyze", "assess", "calculate", "comment", "compare", "consider", "contrast", "define", "demonstrate", "describe", "develop", "discuss", "evaluate", "examine", "explain", "give", "identify", "justify", "outline", "predict", "sketch", "state", "suggest", "summarize"]
     print("Your words are:")
     while sum(correctAnswers) < 24:
@@ -63,11 +58,18 @@ while no not in ["no", "0"] and restart == "yes" and ok.lower() != "no":
         if correctAnswers[randomNumber] == 0:
             print(wordList[randomNumber])
             correctAnswers[randomNumber] = 1
+    while randomizer not in ["0", "1"]:
+        print("\nIf you would like the questions to be in a preset order, please type \"0\" and press \"RETURN\"/\"ENTER\".\nIf you would like the questions to be randomized, please type \"1\" and press \"RETURN\"/\"ENTER\"\nThe word bank, however, will always be randomized.")
+        randomizer = input()
+        if randomizer not in ["0", "1"]:
+            print("Please type in only one of the two options.")
     correctAnswers = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     print("Feel free to answer with any kind of capitalization. Every word is a present-tense verb, but alternate suffixes are allowed.\nRoot words are encouraged and yield a full point rather than part of one.\nPress \"RETURN\"/\"ENTER\" to continue.")
     input()
     randomNumber = 0
     retry = "yes"
+    if randomizer == "1":
+        randomNumber = random.randint(0, 23)
     while math.ceil(correctAnswers[0]) + math.ceil(correctAnswers[1]) + math.ceil(correctAnswers[2]) + math.ceil(correctAnswers[3]) + math.ceil(correctAnswers[4]) + math.ceil(correctAnswers[5]) + math.ceil(correctAnswers[6]) + math.ceil(correctAnswers[7]) + math.ceil(correctAnswers[8]) + math.ceil(correctAnswers[9]) + math.ceil(correctAnswers[10]) + math.ceil(correctAnswers[11]) + math.ceil(correctAnswers[12]) + math.ceil(correctAnswers[13]) + math.ceil(correctAnswers[14]) + math.ceil(correctAnswers[15]) + math.ceil(correctAnswers[16]) + math.ceil(correctAnswers[17]) + math.ceil(correctAnswers[18]) + math.ceil(correctAnswers[19]) + math.ceil(correctAnswers[20]) + math.ceil(correctAnswers[21]) + math.ceil(correctAnswers[22]) + math.ceil(correctAnswers[23]) < 23:
         if sum(correctAnswers) > 0:
             print("Score: " + str(sum(correctAnswers)) + "/24.")
