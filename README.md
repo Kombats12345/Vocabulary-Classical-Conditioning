@@ -36,7 +36,7 @@ Fixed a bug where if you skipped the last question, the program crashed.
 
 Added the readme file.
 # 1.0.3(.0).1
-Changed the readme.
+Modified the readme file.
 # 1.0.4(.0)
 Shows the word list before asking if you want the questions randomized.
 
@@ -44,4 +44,6 @@ Fixed a bug where the first question wouldn't be randomized if you picked random
 
 Added a version history.
 # 1.0.4(.0).1
-Changed the readme.
+Modified the readme file.
+# 1.0.4(.0).2
+Modified the readme file.
