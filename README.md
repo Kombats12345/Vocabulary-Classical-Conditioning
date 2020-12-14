@@ -24,28 +24,24 @@ Also thanks to the people that worked on Python and Pycharm so I could code usin
 Also also thanks to everyone else for making decisions that inevitably led me to work on this project, from colonizing America to picking up a penny on the street.
 
 This program was only tested on Windows 10 with Python 3.9 installed, so if something doesn't work, use that information to help you or something. It was compiled using auto-py-to-exe.
-
 # VERSION HISTORY
 # 1(.0.0.0)
 Gone. I don't know what happened to it nor what it had.
-
 # 1.0.1(.0)
 I think I removed ANSI codes and fixed some bugs.
-
 # 1.0.2(.0)
 Removed some more bugs.
-
 # 1.0.3(.0)
-Fixed a bug where if you wanted to skip the last question, the program crashed.
+Fixed a bug where if you skipped the last question, the program crashed.
 
 Added the readme file.
-
 # 1.0.3(.0).1
 Changed the readme.
-
 # 1.0.4(.0)
 Shows the word list before asking if you want the questions randomized.
 
 Fixed a bug where the first question wouldn't be randomized if you picked randomized questions.
 
 Added a version history.
+# 1.0.4(.0).1
+Changed the readme.
